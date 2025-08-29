@@ -4,16 +4,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start": "node index.js",
-    "postinstall": "prisma generate --schema=./prisma/schema.prisma"
+    "start": "nodemon index.js"
   },
   "author": "amose",
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.878.0",
     "@aws-sdk/lib-storage": "^3.878.0",
-    "@prisma/client": "^5.22.0",
+    "@prisma/client": "^5.19.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.21.2",
