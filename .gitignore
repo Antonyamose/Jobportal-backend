@@ -24,3 +24,7 @@ Thumbs.db
 # Build output
 dist/
 build/
+
+# Ignore dev DB
+prisma/dev.db
+
