@@ -142,7 +142,6 @@ const s3 = new S3Client({
   },
 });
 
-// Multer (store file in memory)
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
