@@ -15,15 +15,15 @@ lerna-debug.log*
 .env.test.local
 .env.production.local
 
-# OS / Editor junk
-.DS_Store
-Thumbs.db
-.idea/
-.vscode/
+# # OS / Editor junk
+# .DS_Store
+# Thumbs.db
+# .idea/
+# .vscode/
 
-# Build output
-dist/
-build/
+# # Build output
+# dist/
+# build/
 
 # Ignore dev DB
 prisma/dev.db
